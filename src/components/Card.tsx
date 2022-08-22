@@ -12,7 +12,7 @@ interface Card {
 function Card(props: Card) {
   return (
     <>
-      <a href={ props.link} className="rounded-lg bg-orange-300 border-2 border-orange-900 px-2 shadow-md mx-2" target="_blank" rel="noreferrer">
+      <a href={ props.link} className="card" target="_blank" rel="noreferrer">
         <div className="flex flex-row py-2">
           <FontAwesomeIcon className="flex mx-1 text-orange-900" width={30} icon={props.icon} />
           <h1 className="flex mx-1 poppins text-orange-900 text-2xl">{ props.name }</h1>

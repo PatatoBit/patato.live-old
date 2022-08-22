@@ -20,6 +20,11 @@
   @apply text-6xl mt-4 text-orange-900 animate-bounce;
 }
 
+.card {
+  @apply rounded-lg bg-orange-300 border-2 border-orange-900 px-2 shadow-md mx-2
+  hover:scale-105 hover:animate-bounce;
+}
+
 .poppins {
   font-family: "Poppins", sans-serif;
 }

@@ -25,7 +25,7 @@ const Home: NextPage = () => {
       <div className="fullflex">
         <Image className="image" src={computa} alt="computer image" width={300} height={300} />
         <h1 className="title mt-2">Patato</h1>
-        <h1 className="mb-4 poppins text-orange-900 text-3xl">I&apos;m {age} years old</h1>
+        <h1 className="mb-4 poppins text-orange-900 text-3xl select-none">I&apos;m {age} years old</h1>
         
         < Cards />
       </div>
