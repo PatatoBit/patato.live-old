@@ -38,7 +38,7 @@ function Projects() {
 					/>
 					<Project
 						name="Digital Garden"
-						description="Digital Garden to store things that my brain couldn't"
+						description="Digital Garden to store things that my brain couldn't. Some blogs too"
 						link="https://github.com/PathonScript/garden"
 					/>
 				</div>
