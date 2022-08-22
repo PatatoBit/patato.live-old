@@ -35,8 +35,8 @@ const Home: NextPage = () => {
           <Image
             src="/webring.svg"
             alt="วงแหวนเว็บ"
-            width={64}
-            height={64}
+            width={48}
+            height={48}
           />
         </a>
       </div>
