@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&family=Noto+Sans+JP&family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fullflex {
+  @apply flex flex-col items-center justify-center w-full h-screen bg-gradient-to-t from-orange-200 to-orange-300;
+}
+
+.image {
+  @apply rounded-full border-4 border-black;
+}
+
+.title {
+  font-family: "Chilanka", cursive;
+  @apply text-6xl mt-4;
+}
+
+.age {
+  font-family: "Poppins", sans-serif;
+  @apply text-2xl my-2;
+}
