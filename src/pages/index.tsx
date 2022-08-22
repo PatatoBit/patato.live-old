@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <Head>
         <title>patato</title>
         <meta name="description" content="Patato's personal portfolio website made with NextJS & TailwindCSS" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/potatocolor.png" />
       </Head>
 
       <div className="fullflex">
