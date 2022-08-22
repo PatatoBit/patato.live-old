@@ -1,4 +1,4 @@
-// import { useState } from "react";
+import { useState } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image"
@@ -9,12 +9,13 @@ import computa from '../../public/computa.jpg'
 
 const Home: NextPage = () => {
   // const hello = trpc.useQuery(["example.hello", { text: "from tRPC" }]);
-  // let [age, setAge] = useState('')
+  // eslint-disable-next-line prefer-const
+  let [age, setAge] = useState('')
 
-  // setInterval(() => {
-	// 	let time = (new Date().getTime() - new Date(1206835200000).getTime()) / (1000 * 60 * 60 * 24 * 365.25); // milliseconds per year
-  //   age = time.toString().substring(0, 11);
-	// }, 50);
+  setInterval(() => {
+		const time = (new Date().getTime() - new Date(1206835200000).getTime()) / (1000 * 60 * 60 * 24 * 365.25); // milliseconds per year
+    setAge(age = time.toString().substring(0, 11))
+	}, 100);
   return (
     <>
       <Head>
@@ -27,7 +28,7 @@ const Home: NextPage = () => {
         <Image className="image" src={computa} alt="computer image" width={300} height={300} />
 
         <h1 className="title">Patato</h1>
-        <h1 className="age">I&apos;m 14 years old</h1>
+        <h1 className="age">I&apos;m { age } years old</h1>
       </div>
     </>
   );
