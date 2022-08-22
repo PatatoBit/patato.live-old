@@ -6,16 +6,18 @@ interface Project {
 	name: string,
 	description: string,
 	link?: string,
-	image: StaticImageData | string
+	image?: StaticImageData | string
 }
 
 function Project(props: Project) {
   return (
-	  <div className="grid project-card text-center">
-		  <div className="flex flex-col w-full h-full items-center">
+	<div className="grid project-card text-center">
+		<div className="flex flex-2 flex-col w-full h-full items-center">
 			<h1 className="text-4xl title">{props.name}</h1>
 			<h1 className="text-xl poppins">{props.description}</h1>
-			<a className="poppins text-center" href={props.link}>Click here to view</a>
+		  </div>
+		  <div className="flex flex-1 items-center justify-center">
+			<a className="poppins text-center" href={props.link} target="_blank" rel="noreferrer">View Project</a>
 		  </div>
 		  {/* <Image
 			  className="max-w-full"
