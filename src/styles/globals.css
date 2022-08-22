@@ -13,10 +13,9 @@
 
 .title {
   font-family: "Chilanka", cursive;
-  @apply text-6xl mt-4;
+  @apply text-6xl mt-4 text-orange-900;
 }
 
-.age {
+.poppins {
   font-family: "Poppins", sans-serif;
-  @apply text-2xl my-2;
 }
