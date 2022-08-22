@@ -8,7 +8,7 @@
 }
 
 .fullflex {
-  @apply flex flex-col items-center justify-center w-full h-screen bg-gradient-to-t from-orange-200 to-orange-300;
+  @apply flex flex-col items-center justify-center w-full h-screen;
 }
 
 .image {
@@ -17,7 +17,7 @@
 
 .title {
   font-family: "Chilanka", cursive;
-  @apply text-6xl mt-4 text-orange-900 animate-bounce;
+  @apply mt-4 text-orange-900;
 }
 
 .card {
@@ -27,4 +27,13 @@
 
 .poppins {
   font-family: "Poppins", sans-serif;
+}
+
+.project-card {
+  @apply border-4 border-orange-900 rounded-xl m-1 sm:m-2 p-2 sm:p-4;
+}
+
+.project-card a {
+  @apply text-white border-2 border-orange-900 bg-orange-900 rounded-xl w-3/4 mt-2 py-1 align-bottom
+  hover:text-orange-900 hover:bg-orange-200 hover:border-orange-200;
 }
