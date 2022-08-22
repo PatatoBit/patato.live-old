@@ -12,12 +12,12 @@
 }
 
 .image {
-  @apply rounded-full border-4 border-black;
+  @apply rounded-full border-4 border-black mb-2;
 }
 
 .title {
   font-family: "Chilanka", cursive;
-  @apply text-6xl mt-4 text-orange-900;
+  @apply text-6xl mt-4 text-orange-900 animate-bounce;
 }
 
 .poppins {
