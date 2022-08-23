@@ -7,7 +7,7 @@ function Projects() {
 	return (
   
 		<>
-			<div className="fullflex bg-gradient-to-t from-orange-300 to-orange-200">
+			<div className="fullflex bg-gradient-to-t from-orange-400 to-orange-300 ">
 				<h1 className="text-5xl title mb-10">Notable Projects📌</h1>
 				<div className="grid grid-cols-2 sm:grid-cols-4">
 					<Project

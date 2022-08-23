@@ -6,13 +6,16 @@ import computa from '../../public/computa.jpg'
 import Cards from '../components/Cards'
 import Webring from "../components/Webring";
 import Projects from "../components/Projects";
+import About from "../components/About";
 
 const Home: NextPage = () => {
   // eslint-disable-next-line prefer-const
   let [age, setAge] = useState('')
+  let wholeAge = '';
 
   setInterval(() => {
-		const time = (new Date().getTime() - new Date(1206835200000).getTime()) / (1000 * 60 * 60 * 24 * 365.25); // milliseconds per year
+    const time = (new Date().getTime() - new Date(1206835200000).getTime()) / (1000 * 60 * 60 * 24 * 365.25); // milliseconds per year
+    wholeAge = Math.floor(time).toString()
     setAge(age = time.toString().substring(0, 11))
 	}, 100);
   return (
@@ -32,8 +35,8 @@ const Home: NextPage = () => {
         < Cards />
       </div>
 
-    <Projects />
-
+      <About  />
+      <Projects />
     </>
   );
 };
