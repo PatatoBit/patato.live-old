@@ -10,7 +10,7 @@ function About() {
 				<p className="text-3xl poppins text-orange-900">
 					  Hi there, I&apos;m Pat. A student from Thailand that is interested in coding, especially in Web Development, Apps, and Bots.    
 					  I am currently studying secondary school at Intertots Trillingual School and code for fun.
-					  I want to hopefully code for a living and move abroad for better life quality and opportunities.
+					  I want to hopefully code for a living and move abroad as soon as possible for better life quality and opportunities.
 				</p>
 			
 			  </div>
