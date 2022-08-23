@@ -9,7 +9,7 @@ function Projects() {
 		<>
 			<div className="fullflex bg-gradient-to-t from-orange-300 to-orange-200">
 				<h1 className="text-5xl title mb-10">Notable Projects📌</h1>
-				<div className="grid grid-cols-2 sm:grid-cols-4 w-full">
+				<div className="grid grid-cols-2 sm:grid-cols-4">
 					<Project
 						name="Patato.live"
 						description="This website!"
