@@ -35,6 +35,8 @@ const Home: NextPage = () => {
 
       <About  />
       <Projects />
+      <h1 className="flex fixed bottom-0 left-0 right-0 text-center title justify-center items-center text-orange-900">Copyright ©️ 2022 Patato | All Rights Reserved</h1>
+
     </>
   );
 };

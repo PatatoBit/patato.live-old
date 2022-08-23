@@ -5,7 +5,6 @@ import Project from './Project'
 
 function Projects() {
 	return (
-  
 		<>
 			<div className="fullflex bg-gradient-to-t from-orange-400 to-orange-300 ">
 				<h1 className="text-5xl title mb-10">Notable Projects📌</h1>
@@ -42,7 +41,6 @@ function Projects() {
 						link="https://github.com/PathonScript/garden"
 					/>
 				</div>
-
 			</div>
 		</>
   )
