@@ -12,7 +12,7 @@ function Projects() {
 					<Project
 						name="Patato.live"
 						description="This website!"
-						link="https://patato.live"
+						link="https://github.com/PathonScript/patato.live"
 						image="https://webring.wonderful.software/webring.black.svg"
 					/>
 					<Project
