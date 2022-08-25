@@ -5,7 +5,7 @@ import { faEnvelope, faTree } from '@fortawesome/free-solid-svg-icons'
 
 function Cards() {
   return (
-	<div className="flex flex-col sm:flex-row w-1/2 justify-center items-center">
+	<div className="cards-big">
 		<Card icon={faGithub} name="Github" link="https://github.com/PathonScript"/>
 		<Card icon={faTwitter} name="Twitter" link="https://twitter.com/Patatotota"/>
 		<Card icon={faTree} name="Garden" link="https://garden.patato.live" />

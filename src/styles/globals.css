@@ -37,3 +37,7 @@
   @apply text-white border-2 border-orange-900 bg-orange-900 rounded-xl w-3/4 mt-2 py-1 align-bottom
   hover:text-orange-900 hover:bg-orange-200 hover:border-orange-200;
 }
+
+.cards-big {
+  @apply flex flex-col sm:flex-row w-1/2 justify-center items-center;
+}

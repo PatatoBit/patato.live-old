@@ -28,7 +28,7 @@ const Home: NextPage = () => {
       <div className="fullflex bg-gradient-to-t from-orange-200 to-orange-300">
         <Image className="image" src={computa} alt="computer image" width={300} height={300} />
         <h1 className="title text-6xl mt-2 animate-bounce">Patato</h1>
-        <h1 className="mb-4 poppins text-orange-900 text-3xl select-none">I&apos;m {age} years old</h1>
+        <h1 className="mb-4 poppins text-orange-900 text-2xl sm:text-3xl select-none">I&apos;m {age} years old</h1>
         
         < Cards />
       </div>
